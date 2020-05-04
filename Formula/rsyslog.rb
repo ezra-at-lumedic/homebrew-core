@@ -35,6 +35,7 @@ class Rsyslog < Formula
       --prefix=#{prefix}
       --disable-dependency-tracking
       --enable-imfile
+      --enable-mmnormalize
       --enable-usertools
       --enable-diagtools
       --disable-uuid
